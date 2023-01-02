@@ -1,0 +1,81 @@
+.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #f7f7f7;
+}
+
+.container {
+  display: grid;
+  padding: 30px;
+  background-color: #191818;
+  align-items: center;
+}
+
+#footer_content{
+  background-color: #191818;
+  gap: 20px;
+}
+
+#footer_socialmedia{
+  display: grid;
+  grid-template-columns: 40px 40px 40px 40px;
+  gap: 10px;
+  justify-content: center;
+}
+
+#footer_information{
+  display: flex;
+  justify-content: space-around;
+}
+
+#footer_information ul{
+  display: flex;
+  width: auto;
+  flex-flow: column;
+  gap: 8px;
+}
+
+#footer_rights{
+  background-color: #877053;
+  color: #E4E4E4;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.advertisement {
+  place-content: center;
+  background-color: #8a8a8a;
+}
+
+#tutorial_section {
+  background-color: #333333;
+  display: grid;
+  gap: 20px;
+}
+
+.advertisement {
+  display: none;
+}
+
+#tutorial {
+  display: none;
+}
+
+#desktop_menu_items {
+  display: none;
+}
+
+#CEP {
+  display: none;
+}
+
+.line {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #f7f7f7;
+  margin: 0px auto 0px auto;
+}

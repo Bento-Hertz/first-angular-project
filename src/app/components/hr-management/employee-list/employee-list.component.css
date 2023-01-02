@@ -1,0 +1,25 @@
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.decorative-line {
+  height: 2.5px;
+  width: 200px;
+  background-color: #f7f7f7;
+  margin: 0px auto 20px auto;
+}
+
+#employee-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 15px;
+}
+
+.error-message p{
+  text-align: center;
+  font-size: 18px;
+}

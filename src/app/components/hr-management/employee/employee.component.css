@@ -1,0 +1,48 @@
+.employee{
+  display: grid;
+  gap: 10px;
+  width: 262px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  color: #191818;
+  box-shadow: 6px 6px #191818;
+}
+
+.employee span{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.employee img {
+  width: 30px;
+}
+
+.id-employee img {
+  width: 40px;
+}
+
+.id-employee {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.decorative-line {
+  height: 2.5px;
+  width: 100%;
+  background-color: #877053;
+}
+
+.acoes {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  justify-content: left;
+}
+
+.acoes img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}

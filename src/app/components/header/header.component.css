@@ -1,0 +1,69 @@
+header {
+  grid-template-columns: auto 1fr;
+  gap: 30px;
+}
+
+.container {
+  display: grid;
+  padding: 30px;
+  background-color: #191818;
+  align-items: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #f7f7f7;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+#menu {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item {
+  display: grid;
+  grid-template-columns: 20px auto;
+  gap: 5px;
+  align-items: center;
+}
+
+#menu-items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+}
+
+
+.menu-item:hover p,
+.menu-item:hover img,
+#login-button:hover,
+#search:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
+  color: #a7a7a7;
+}
+
+#login-button:hover {
+  color: #f7f7f7;
+}
+
+#account-options {
+  display: grid;
+  grid-template-columns: auto 30px;
+  gap: 15px;
+}
+
+#login-button {
+  padding: 5px 30px;
+  background-color: #877053;
+  border-radius: 10px;
+}
+

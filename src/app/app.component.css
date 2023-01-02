@@ -1,0 +1,7 @@
+main {
+  background-image: url("../assets/img/mobile.jpg");
+  background-size: cover;
+  min-height: 50vh;
+  padding: 50px;
+}
+

@@ -1,0 +1,15 @@
+<h1 class="title">REGISTERED EMPLOYEES</h1>
+
+<div class="decorative-line"></div>
+
+<section id="employee-list" *ngIf="employeeList.length > 0, else didNotFind">
+  <div *ngFor="let employee of employeeList">
+    <app-employee [employee]="employee"></app-employee>
+  </div>
+</section>
+
+<ng-template #didNotFind>
+  <div class="error-message">
+    <p>Oops! It was not possible to find the items due to an unknown error. Please, come back later.</p>
+  </div>
+</ng-template>
